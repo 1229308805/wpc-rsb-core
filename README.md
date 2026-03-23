@@ -33,4 +33,4 @@ model.train(wind, power)
 pred = model.predict(np.linspace(0.0, 25.0, 200))
 ```
 
-The exported `RSBModel` alias maps to the original `PI2MFramework` implementation retained from the research codebase.
+`RSBModel` is the public model entry point for RSB training and prediction.
