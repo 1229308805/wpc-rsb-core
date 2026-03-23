@@ -1,18 +1,14 @@
 # wpc-rsb-core
 
-Minimal core implementation of the Robust Shape Baseline (RSB) model for wind power curve construction from raw SCADA data.
+Project code for the Robust Shape Baseline (RSB) model for wind power curve construction from raw SCADA data.
 
-This repository is intentionally narrow:
-
-- It includes only the model code needed to train and evaluate the RSB curve-construction pipeline.
-- It does not include any proprietary SCADA datasets.
-- It does not include manuscript figures, experiment outputs, or project-specific orchestration code.
+This repository provides the RSB model implementation together with a self-contained synthetic example for quick inspection and reuse.
 
 ## Contents
 
 - `wpc_rsb_core.py`: core model implementation
-- `example_synthetic.py`: synthetic-data smoke example
-- `requirements.txt`: minimal runtime dependencies
+- `example_synthetic.py`: synthetic-data usage example
+- `requirements.txt`: runtime dependencies
 
 ## Quick start
 
